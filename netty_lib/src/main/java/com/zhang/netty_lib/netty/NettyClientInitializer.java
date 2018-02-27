@@ -35,8 +35,8 @@ public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
 //        pipeline.addLast(sslCtx.newHandler(ch.alloc()));    // 开启SSL
         pipeline.addLast(new LoggingHandler(LogLevel.INFO));    // 开启日志，可以设置日志等级
         pipeline.addLast("IdleStateHandler", new IdleStateHandler(6, 0, 0));
-        pipeline.addLast("StringDecoder", new StringDecoder());//解码器
-        pipeline.addLast("StringEncoder", new StringEncoder());//编码器
+        pipeline.addLast("StringDecoder", new StringDecoder());//解码器 这里要与服务器保持一致
+        pipeline.addLast("StringEncoder", new StringEncoder());//编码器 这里要与服务器保持一致
         pipeline.addLast(new NettyClientHandler(listener));
     }
 }

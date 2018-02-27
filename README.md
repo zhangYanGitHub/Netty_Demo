@@ -302,3 +302,4 @@
 * 主线程发送消息
 
          NettyClient.getInstance().sendMessage(baseFeed, null);
+* 注意 解码器和编码器 要与服务器保持一致
