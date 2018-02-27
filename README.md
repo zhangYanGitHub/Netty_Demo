@@ -303,3 +303,4 @@
 
          NettyClient.getInstance().sendMessage(baseFeed, null);
 * 注意 解码器和编码器 要与服务器保持一致
+* 博客地址：http://blog.csdn.net/qq_36296142/article/details/79387662
