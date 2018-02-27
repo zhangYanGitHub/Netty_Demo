@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a66be46-2ff2-4547-b9db-a56fea6ab680" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/netty/NettyClientInitializer.java" afterPath="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/netty/NettyClientInitializer.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,12 +69,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="23">
-                <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <first_editor relative-caret-position="-3105">
+                <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -92,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NettyClientInitializer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NettyClientInitializer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/netty/NettyClientInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="39" column="70" lean-forward="false" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="70" />
+            <state relative-caret-position="253">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -2695,7 +2695,6 @@
         <option value="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/bean/NettyBaseFeed.java" />
         <option value="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/bean/Netty_RegisterInfo.java" />
         <option value="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/bean/ChatInfo.java" />
-        <option value="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/netty/NettyClientInitializer.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_text_view.xml" />
         <option value="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/NettyCallback.java" />
         <option value="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/NettyMessageRecevier.java" />
@@ -2714,6 +2713,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/zhang/netty_demo/MainActivity.java" />
         <option value="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/constant/UrlConstant.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/netty/NettyClientInitializer.java" />
       </list>
     </option>
   </component>
@@ -3172,7 +3172,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519710556583" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519710774163" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -3245,7 +3245,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519710556583" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519710774163" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3293,7 +3293,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519710556583" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519710774163" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3476,7 +3476,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519710556584" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519710774164" />
       </method>
     </configuration>
     <list size="3">
@@ -3888,16 +3888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/activity/NettyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/constant/UrlConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -3918,14 +3908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="39" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/netty/NettyClientInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="39" column="70" lean-forward="false" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="70" />
           <folding />
         </state>
       </provider>
@@ -3951,11 +3933,29 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <first_editor relative-caret-position="-3105">
+            <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/activity/NettyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_lib/src/main/java/com/zhang/netty_lib/netty/NettyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

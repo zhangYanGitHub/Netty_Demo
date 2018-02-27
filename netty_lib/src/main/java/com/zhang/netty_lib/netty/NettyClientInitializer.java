@@ -19,11 +19,6 @@ public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
 
     private NettyListener listener;
 
-    private int WRITE_WAIT_SECONDS = 10;
-
-    private int READ_WAIT_SECONDS = 13;
-    private int ALL_IDLE_TIME = 12;
-
     public NettyClientInitializer(NettyListener listener) {
         if(listener == null){
             throw new IllegalArgumentException("listener == null ");
@@ -40,8 +35,8 @@ public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
 //        pipeline.addLast(sslCtx.newHandler(ch.alloc()));    // 开启SSL
         pipeline.addLast(new LoggingHandler(LogLevel.INFO));    // 开启日志，可以设置日志等级
         pipeline.addLast("IdleStateHandler", new IdleStateHandler(6, 0, 0));
-        pipeline.addLast("StringDecoder", new StringDecoder());
-        pipeline.addLast("StringEncoder", new StringEncoder());
+        pipeline.addLast("StringDecoder", new StringDecoder());//解码器
+        pipeline.addLast("StringEncoder", new StringEncoder());//编码器
         pipeline.addLast(new NettyClientHandler(listener));
     }
 }
