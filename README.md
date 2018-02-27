@@ -1,4 +1,5 @@
-# Netty_Android <br>采用netty-4.1.16.Final 于服务器保持长连接进行通讯
+# Netty_Android
+#### 采用netty-4.1.16.Final 于服务器保持长连接进行通讯
 
 ##### 主要思路为： 开启一个service 初始化Netty连接 
 * service 类
